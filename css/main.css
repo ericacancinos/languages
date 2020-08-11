@@ -331,6 +331,64 @@ nav li a:hover{
     }
 }
 
+/**Testimoniales**/
+.servicio-testimonial{
+    margin-top: 40px;
+}
+.persona{
+    text-align: center;
+}
+.persona .efecto-redondo{
+ /*efecto esfera en la imagen*/
+    border-radius: 50%;
+    border       : 6px solid #8dbcaa;
+    margin-bottom: 15px;
+    overflow     : hidden;
+    height       : 260px;
+    width        : 260px;
+    margin       : 0 auto;
+}
+.persona .efecto-redondo img{
+    max-width: 100%;
+/*Que tenga un max de 100 de 
+escala aunque sea pequeno o grande*/
+}
+.persona h4{
+    font-weight  : 700;
+    color        : #03c4eb;
+    margin-bottom: 5px;
+}
+.persona span {
+    color    : #333333;
+/*color al nombre del pais*/
+}
+.cita{
+    position      : relative;
+    background    : #f0f4f2;
+    padding       : 60px;
+    margin-top    : 40px;
+    font-size     : 16px;
+    font-style    : italic;
+    border-radius : 5px;
+}
+.border{
+    border: 3px solid #f3ecec;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ==========================================================================
