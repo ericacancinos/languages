@@ -375,13 +375,75 @@ escala aunque sea pequeno o grande*/
     border: 3px solid #f3ecec;
 }
 
-
-
-
-
-
-
-
+/*Contacto*/
+.info{
+    color: #333;
+}
+.info i{
+    font-size: 32px;
+    color: #03c4eb;
+    float: left;
+    padding-left: 200px;
+}
+@media only screen and (max-width: 468px){
+    .info i {
+    padding-left: 50px;
+    }
+}
+.info p{
+    padding: 0 0 10px 50px;
+    line-height: 24px;
+    margin; 30px;
+}
+input#nombre,
+input#email,
+input#tema{
+    display: block;
+    width: 75%;
+    height:34px;
+    padding: 6px 12px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+textarea{
+    display:block;
+    width: 75%;
+    height: 120px;
+    padding: 6px 12px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 468px) {
+    input#nombre,
+    input#email,
+    input#tema{
+        margin-left: 50px;
+    }
+    textarea{
+        margin-left:50px;
+    }
+}
+.form button[type="submit"] {
+    background: #03c4eb;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    margin-right: 150px;
+}
+.form button[type="submit"]:hover {
+    background: #25d8fc;
+}
+@media only screen and (max-width: 468px){    
+    .form button[type="submit"] {
+        margin-right:0;
+        margin-bottom: 20px;
+    }
+}
 
 
 
