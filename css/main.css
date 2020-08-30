@@ -436,7 +436,9 @@ textarea{
     margin-right: 150px;
 }
 .form button[type="submit"]:hover {
-    background: #25d8fc;
+    background: transparent;
+    border: 1px solid #25d8fc;
+    color: #ccc;
 }
 @media only screen and (max-width: 468px){    
     .form button[type="submit"] {
@@ -445,10 +447,74 @@ textarea{
     }
 }
 
+/*Footer*/
+#footer{
+    background: #111;
+    padding: 30px 0;
+    color: #fff;
+    padding-top: 50px;
+}
+#footer .copyright {
+    text-align: center;
+}
 
+/**Flecha**/
+.hacia-arriba{
+    position: fixed;
+    background: rgba(0,0,0, 0.2);
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+}
+@media (max-width: 768px){
+    .hacia-arriba{
+        bottom: 15px;
+    }
+}
+.hacia-arriba:focus {
+    background: rgba(0,0,0, 0.2);
+    color: #fff;
+    outline: none;
+}
+.hacia-arriba:hover {
+    background: #03c4eb;
+    color: #fff;
+}
 
-
-
+/** Responsive **/
+  
+span.fa.fa-id-card.fa-3x {
+    margin-left: 5px;
+    color      : #03C4EB;
+}     
+span.fa.fa-handshake-o.fa-3x {
+    margin-left: 5px;
+    color      : #03C4EB;
+}
+span.fa.fa-telegram.fa-3x {
+    margin-left: 5px;
+    color      : #03C4EB;
+}
+span.fa.fa-user-o.fa-3x {
+    margin-left: 5px;
+    color      : #03C4Eb;
+}
+span.fa.fa-filter.fa-3x {                   
+    margin-left: 5px;
+    color      : #03C4EB;                   
+}                 
+span.fa.fa-code.fa-3x {
+    margin-left: 5px;
+    color      : #03C4EB;
+}
+span.fa.fa-flag.fa-3x {
+    margin-left: 5px;
+    color      : #03C4EB;
+}
 
 
 
